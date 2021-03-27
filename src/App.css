@@ -1,0 +1,82 @@
+form.todo-frm {
+    display: inline-flex;
+    padding: 10px;
+}
+
+form.todo-frm select {
+    padding: 4px;
+    margin-left: 6px;
+    border: 2px solid #666;
+}
+
+ul.todo-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.todo-list > .todo{
+    display: inline-flex;
+}
+
+.todo li.todo-item {
+    list-style: none;
+    border: 2px solid #666;
+    padding: 5px 10px;
+    width: 200px;
+}
+
+.todo button {
+    width: 38px;
+    /* border: 2px solid #666; */
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.todo button.check-btn {
+    background-color: #00bb66;
+}
+
+.todo button.trash-btn {
+    background-color: #ff3333;
+}
+
+.todo button:hover {
+    border-bottom: 4px solid #666;
+    transition: 0.25s;
+}
+
+.todo button:hover i {
+    opacity: 0.8;
+    transition: 0.25s;
+    transform: translateY(-4px);
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.todo-button {
+    border: none;
+    background: #FFFFFF;
+    border-top: 2px solid #666;
+    border-right: 2px solid #666;
+    border-bottom: 2px solid #666;
+    border-left: 0px solid rgba(0, 0, 0, 0);
+}
+
+.todo-input {
+    border: none;
+    border-left: 2px solid #666;
+    border-top: 2px solid #666;
+    border-bottom: 2px solid #666;
+    border-right: 0px solid rgba(0, 0, 0, 0);
+}
+
+.todo-input:focus {
+    border-left: 2px solid #666;
+}
