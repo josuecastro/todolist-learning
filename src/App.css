@@ -1,3 +1,17 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.App header h1 {
+    text-align: center;
+}
+
+.App form.todo-frm {
+    margin: 20px auto;
+}
+
 form.todo-frm {
     display: inline-flex;
     padding: 10px;
@@ -14,6 +28,8 @@ ul.todo-list {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    padding-left: 0;
 }
 
 ul.todo-list > .todo{
